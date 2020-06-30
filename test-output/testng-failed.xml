@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="node" value=""/>
+  <parameter name="browser" value=""/>
+  <test thread-count="5" name="AlertsTypesTest(failed)">
+    <classes>
+      <class name="com.herokuapp.theinternet.Elements.AlertsTypes">
+        <methods>
+          <include name="setUp"/>
+          <include name="sys"/>
+          <include name="tearDown"/>
+          <include name="A"/>
+          <include name="handlingDifferentAlerts"/>
+        </methods>
+      </class> <!-- com.herokuapp.theinternet.Elements.AlertsTypes -->
+    </classes>
+  </test> <!-- AlertsTypesTest(failed) -->
+  <test thread-count="5" name="CheckBoxTest(failed)">
+    <classes>
+      <class name="com.herokuapp.theinternet.Elements.CheckBoxClick">
+        <methods>
+          <include name="setUp"/>
+          <include name="sys"/>
+          <include name="tearDown"/>
+          <include name="A"/>
+          <include name="clickCheckBox"/>
+        </methods>
+      </class> <!-- com.herokuapp.theinternet.Elements.CheckBoxClick -->
+    </classes>
+  </test> <!-- CheckBoxTest(failed) -->
+  <test thread-count="5" name="DropDownTest(failed)">
+    <classes>
+      <class name="com.herokuapp.theinternet.Elements.DropDownSelect">
+        <methods>
+          <include name="setUp"/>
+          <include name="sys"/>
+          <include name="tearDown"/>
+          <include name="A"/>
+          <include name="SelectdropDown"/>
+        </methods>
+      </class> <!-- com.herokuapp.theinternet.Elements.DropDownSelect -->
+    </classes>
+  </test> <!-- DropDownTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
